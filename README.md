@@ -140,7 +140,7 @@ This may seem a bit strange, but consider the case in which you want to select e
 shoe.sizes <- c(7, 6.5, 4, 11, 8)
 
 # Create a boolean vector that indicates if a shoe size is greater than 6.5
-shoe.is.big <- shoe.sizes > 6.5  # returs T, F, F, T, T
+shoe.is.big <- shoe.sizes > 6.5  # returns T, F, F, T, T
 
 # Use the `shoe.is.big` vector to select large shoes
 big.shoes <- shoe.sizes[shoe.is.big]  # returns 7, 11, 8
